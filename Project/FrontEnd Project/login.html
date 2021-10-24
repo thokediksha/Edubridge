@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .socialButton {
+   padding: 1rem 10rem;
+}
+.facebookButton {
+   background-color: #3a61b3;
+   color: #fff;
+}
+.appleButton {
+   background-color: #000000;
+   color: #fff;
+}
+.googleButton {
+   background-color: #fff;
+   color: #616467;
+   border: 1px solid #616467;
+}
+.googleButton:hover {
+   background-color: #616467;
+   color: #fff;
+}
+.loginButton {
+   background-color: #1db954;
+   color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center py-5">
+                <img src="img/logo1.png" alt="" class="img-fluid" width="200" />
+            </div>
+            <hr class="mt-2" />
+            <div class="col-md-12">
+                <p class="text-center fw-bold">To continue, log in to Spotify.</p>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center py-2">
+                <button class="btn btn-primary rounded-pill socialButton facebookButton">Sign up with Facebook</button>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center py-2">
+                <button class="btn btn-dark rounded-pill socialButton appleButton">CONTINUE WITH APPLE</button>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center py-2">
+                <button class="btn btn-light rounded-pill socialButton googleButton">CONTINUE WITH GOOGLE</button>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center py-2">
+                <button class="btn btn-light rounded-pill socialButton googleButton">CONTINUE WITH PHONE</button>
+            </div>
+            <form class="mt-4 py-5">
+                <!-- <div class="mb-3">
+                    <div class="col-md-4 mx-auto">
+                        <label htmlFor="exampleInputEmail1" class="form-label fw-bold">What's your email?</label>
+                        <input type="email" class="form-control" placeholder="Enter your Email" />
+                    </div> -->
+                <!-- </div> -->
+                <div class="mb-3">
+                    <div class="col-md-4 mx-auto">
+                        <label htmlFor="exampleInputEmail1" class="form-label fw-bold">What's your email?</label>
+                        <input type="email" class ="form-control" placeholder="Enter your Email">
+                        <a href="/" class="form-text pt-2">Forgot your password?</a>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="col-md-4 mx-auto">
+                        <input class="form-check-input mt-2" type="checkbox" name="gridRadios" value="option1">
+                        <label class="form-check-label px-3" for="gridRadios1">
+                            Remember me
+                        </label>
+                        <button class="btn fw-bold text-white rounded-pill loginButton px-5 mx-5">LOG IN</button>
+                    </div>
+                </div>
+            </form>
+            <hr />
+            <div class="row py-5">
+                <div class="col-md-12 py-3">
+                    <h3 class="text-center fw-bold">Don't have an account?</h3>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="/signup" class="btn rounded-pill socialButton googleButton">SIGN UP FOR SPOTIFY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.hero-row {
+    background-color: #c3e6fc;
+ }
+ .blackButton-hero-1 {
+    background-color: #000000;
+    color: #ffff;
+ }
+ .blackButton-hero-2 {
+    background-color: #c3e6fc;  
+     color: #000000;
+ }
+ .blackText {
+    color: #000000;
+ }
+ .hoverGreen:hover {
+    color: rgb(0, 255, 0);
+ }
+ .mid-row {
+    background-color: #f4c2c2;
+ }
+ .blackButton-mid-1 {
+    background-color: #000000;
+    color: #b49bc8;
+ }
+ .blackButton-mid-2 {
+    background-color: #f4c2c2;
+    color: #000000;
+ }
+ .mid-row-2 {
+    background-color: #eeeeee;
+ }
+ @media (max-width: 575px) {
+    .blackButton-hero-1,
+    .blackButton-hero-2,
+    .blackButton-mid-1,
+    .blackButton-mid-2 {
+       margin-left: 20px;
+    }
+ }
+ 
